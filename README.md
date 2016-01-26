@@ -11,10 +11,6 @@ Software appplication: Arduino IDE
                        Net Bean IDE  
                        Android Studio
 
-
-					   
-					   
-
 Project Configuration and Structure:
 
 Mobile Device: A mobile device(Android App) sends a signal to the cloud to trigger up an event in a webservice 
