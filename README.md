@@ -23,7 +23,7 @@ Cloud:Cloud host the webservice protocol,It provides effective communications wi
 and a Arduino web call.
 
 Arduino Ethernet: This listens to a webservice call from the cloud through a modem and on the ON event, it triggers
- on the arduino to power on the coffee maker through power switch tail.
+ on the arduino to power on the coffee maker through power switch tail. This is achieved through the concept of Thread in which an event is running as a background service and its listening to a call from the webservice.
 
 					   
 
