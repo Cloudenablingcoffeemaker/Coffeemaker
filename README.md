@@ -1,6 +1,9 @@
 Project Title: Make-Me-Coffee:Cloud Enabling Coffee Maker. 
 Project by : Ejike Amarachi and  Adeoye Oludotun
 
+
+
+
 Hardware:1 Arduino
          1 Power Switch tail
          1 Arduino Ethernet Shield
