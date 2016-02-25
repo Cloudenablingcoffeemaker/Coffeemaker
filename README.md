@@ -13,6 +13,7 @@ Software appplication: Arduino IDE
 
 Project Configuration and Structure:
 
+
 Mobile Device: A mobile device(Android App) sends a signal to the cloud to trigger up an event in a webservice 
 call(on/off). The occurence triggers in a on and off signal to the cloud system where the webservice is hosted on.
 
