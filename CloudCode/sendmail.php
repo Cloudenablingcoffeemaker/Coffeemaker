@@ -1,5 +1,3 @@
-
-
 <?php
 require 'mailer/PHPMailerAutoload.php';
 require 'mailer/class.smtp.php';
