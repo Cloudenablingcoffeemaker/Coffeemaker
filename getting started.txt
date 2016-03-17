@@ -1,0 +1,11 @@
+
+GETTING STARTED WITH COFFEE ENABLING COFFEEMAKER.
+The user fills the drip coffeemaker with the right amount of water and coffee to get the system running effectively. The process of enabling the cloud coffeemaker is as follows:
+.
+1.	The coffeemaker has to be set to ON before it can perform the required function. It is plugged to the socket and switched on. It would only work when there is power and goes off when there is power outage. More so, the user has to put in the coffee and water in designated areas in the coffeemaker to enable the system work effectively.
+
+2.	  The system activates with two different scenarios. Which are:
+•	Activating at the user set time. For instance the user sets a time that the coffeemaker prepares a cup of coffee. For example, the user sets the activating time close to his/her wake up time every morning, or at a certain time before getting home. 
+
+•	 The system also activates whenever it receives request from the user to make a cup of coffee. Apart from the programmed time on the system, the user can randomly send requests to the system to make a cup of coffee outside the programmed time. 
+Generally the system activates only when its receives a request to make a cup of coffee which it would deliver efficiently and also send back an error message to the user if for any reason it would not be able to process the user request at that moment. For instance, a situation of insufficient amount of water required to make a cup of coffee, the system sends an error message back to the user indicating its inability to carry out the user’s request. LCD display turns ON with a welcome message and prompts user to enter password to unlock the system.
