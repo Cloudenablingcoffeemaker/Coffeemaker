@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "drawing.firebase.com.arduino"
+        applicationId "dotmons.arduino.com.arduino"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

@@ -9,11 +9,51 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="drawing.firebase.com.arduino.StartCoffee"
-    tools:showIn="@layout/activity_start_coffee">
+    tools:context="dotmons.arduino.com.StartCoffee"
+    tools:showIn="@layout/activity_start_coffee"
+    android:alpha=".8"
+    android:background="@drawable/imagecof">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="AUTO-COFFEE MAKER"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Coffee"
+        android:id="@+id/btnCoffee"
+        android:textSize="23sp"
+        android:layout_marginBottom="169dp"
+        android:background="#50dac0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Coffee"
+        android:id="@+id/btnResetCoffee"
+        android:textSize="23sp"
+        android:background="#8caae1"
+        android:layout_marginTop="62dp"
+        android:layout_alignTop="@+id/btnCoffee"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtstart"
+        android:textSize="23sp"
+        android:textColor="#ED154B"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/textView" />
 </RelativeLayout>
