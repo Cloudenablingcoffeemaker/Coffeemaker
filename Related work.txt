@@ -1,0 +1,18 @@
+HTTPCoffePot:  This is a cloud enabled coffee maker that is connected to the arduino using Ethernet shield and is attached to a network services. The HTTPCoffePot has a relay which is controlled by an attached arduino is installed in between the wall cord and the power switch on the coffee. This coffee pot listens on the cloud to get user’s requests like a normal web server does and then take the user’s request urls to control the request then the relay is activated by the arduino board when sent the  to user’s status  the start and stop request.
+Its Features
+HTTPCoffePot was designed with special features which are outlined as follows:
+•	15 minute automatic shutoff
+•	Controlled through the HTTP Requests
+•	Status request: The status gives information about the current status of the coffee pot.
+•	Start: This will activate the coffeepot to start provided there is internet connection at the time it is set to start.
+•	Stop requests: This wilt run off the cooffeepot
+•	Return JSON meant for AJAX interfaces
+•	Ready and running LEDS.
+ 
+How It Works:
+1.	Pour the desired quantity of coffee and water with the filter
+2.	Put the coffeepot in its ready state by turning on the ready button 
+3.	When coffee is needed, user send the start request
+4.	Wait for coffeepot to completely process the coffee
+5.	Then send request to stop by either manual or wait for the timed automatic shut off programmed to take place after 15 minutes.
+
