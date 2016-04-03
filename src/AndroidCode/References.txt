@@ -1,0 +1,2 @@
+1. http://developer.android.com/develop/index.html
+2. http://developer.android.com/sdk/index.html
